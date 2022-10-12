@@ -64,16 +64,16 @@
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01), 1px 1px 5px rgb(0 0 0 / 15%);
 
     .ToolIcon {
-      &:hover {
-        --icon-fill-color: var(
-          --color-primary-contrast-offset,
-          var(--color-primary)
-        );
-        --keybinding-color: var(
-          --color-primary-contrast-offset,
-          var(--color-primary)
-        );
-      }
+      // &:hover {
+      //   --icon-fill-color: var(
+      //     --color-primary-contrast-offset,
+      //     var(--color-primary)
+      //   );
+      //   --keybinding-color: var(
+      //     --color-primary-contrast-offset,
+      //     var(--color-primary)
+      //   );
+      // }
       &:active {
         --icon-fill-color: #{$oc-gray-9};
         --keybinding-color: #{$oc-gray-9};
