@@ -174,9 +174,9 @@ export const ToolButton = React.forwardRef((props: ToolButtonProps, ref) => {
       />
       <div className="ToolIcon__icon">
         {props.icon}
-        {props.keyBindingLabel && (
+        {/* {props.keyBindingLabel && (
           <span className="ToolIcon__keybinding">{props.keyBindingLabel}</span>
-        )}
+        )} */}
       </div>
     </label>
   );
